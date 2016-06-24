@@ -1,0 +1,35 @@
+{
+  "name": "gulp-pug-i18n",
+  "version": "0.1.0",
+  "description": "Gulp plugin for Pug with i18n support",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": "bitbucket:dogancelik/gulp-pug-i18n",
+  "bugs": "https://bitbucket.org/dogancelik/gulp-pug-i18n/issues",
+  "homepage": "https://bitbucket.org/dogancelik/gulp-pug-i18n",
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "pug",
+    "jade",
+    "i18n"
+  ],
+  "author": "Doğan Çelik",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "js-yaml": "^3.6.1",
+    "pug": "^2.0.0-beta3",
+    "through2": "^2.0.1",
+    "vinyl-fs": "^2.4.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

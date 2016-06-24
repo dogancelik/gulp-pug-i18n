@@ -1,0 +1,8 @@
+{
+  "title": "Deneme",
+  "hello": "Merhaba Dünya!",
+  "status": {
+    "code": "E390",
+    "msg": "Sunucu şu an kapalı"
+  }
+}

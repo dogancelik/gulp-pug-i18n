@@ -1,0 +1,6 @@
+---
+  title: Example
+  hello: Hello World!
+  status:
+    code: E309
+    msg: Server is currently down
