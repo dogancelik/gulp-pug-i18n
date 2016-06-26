@@ -53,6 +53,12 @@ Path to search for i18n files. Supports glob patterns.
 
 Set to *null* to use root scope.
 
+#### *(optional)* `default`
+
+Specify a default locale.
+Plugin will remove single curly braces if it matches the current locale to the default locale that is set.
+For more information check [Advanced Usage](#advanced-usage) below.
+
 #### *(optional)* `filename`
 
 How to name rendered Pug (Jade) files. Supports directories.

@@ -1,6 +1,6 @@
 {
   "name": "gulp-pug-i18n",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gulp plugin for Pug with i18n support",
   "main": "lib/index.js",
   "directories": {
@@ -25,6 +25,7 @@
     "debug": "^2.2.0",
     "gulp-util": "^3.0.7",
     "js-yaml": "^3.6.1",
+    "map-stream": "0.0.6",
     "pug": "^2.0.0-beta3",
     "through2": "^2.0.1",
     "vinyl-fs": "^2.4.3"
