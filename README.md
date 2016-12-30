@@ -72,6 +72,13 @@ How to name rendered Pug (Jade) files. Supports directories.
 
 **Default value:** `{{basename}}.{{lang}}.html`
 
+
+#### *(optional)* `data`
+
+Object of additional data passed to the locals of Pug.
+
+**Example:** Mardown function to use in template: `{ md: require('marked') }`
+
 ##### Advanced usage
 
 Using single curly braces outside a double braces will make that variable only show if it's not empty.
