@@ -1,6 +1,6 @@
 {
   "name": "gulp-pug-i18n",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Gulp plugin for Pug with i18n support",
   "main": "lib/index.js",
   "directories": {
