@@ -26,3 +26,20 @@ describe('Parsing locales', function () {
     assert.equal(locale.script, 'Mong');
   });
 });
+
+describe('Generating filenames', function () {
+  function gen (locale, pattern, localeDef, cb) {
+    var is = `using locale “${locale}” and filename pattern “${pattern}”` +
+      (localeDef != null ? ` with default locale as “${localeDef}”` : '');
+    it(is, () => cb(utils.makeFilename('index.html', locale, pattern, localeDef)));
+  }
+
+  gen('en-US', '{{basename}}.{{lang}}.html', null,
+    (filename) => assert.equal(filename, 'index.en.html'));
+
+  gen('tr-TR', '{{basename}}.{{lang}}.{{region}}.html', null,
+    (filename) => assert.equal(filename, 'index.tr.TR.html'));
+
+  gen('en-US', '{{basename}}{.{{lang}}}.html', 'en-US',
+    (filename) => assert.equal(filename, 'index.html'));
+});
