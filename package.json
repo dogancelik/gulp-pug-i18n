@@ -31,6 +31,7 @@
     "vinyl-fs": "^2.4.3"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "3.x",
+    "mocha": "3.x"
   }
 }
