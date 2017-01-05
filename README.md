@@ -39,6 +39,12 @@ gulp.task('default', function () {
 
 Module function takes an object for configuration.
 
+### *(optional)* `data` object
+
+Pass additional data (including functions) to Pug.
+
+**Example:** A *Markdown* function to use in template: `{ md: require('marked') }`
+
 ### `i18n` object
 
 #### *(required)* `locales`
@@ -72,13 +78,6 @@ How to name rendered Pug (Jade) files. Supports directories.
 
 **Default value:** `{{basename}}.{{lang}}.html`
 
-
-#### *(optional)* `data`
-
-Object of additional data passed to the locals of Pug.
-
-**Example:** Mardown function to use in template: `{ md: require('marked') }`
-
 ##### Advanced usage
 
 Using single curly braces outside a double braces will make that variable only show if it's not empty.
@@ -94,7 +93,3 @@ Another example: `{{basename}}{-{{lang}}}{-{{region}}}.html`, default locale is 
 
 1. `en` → `index.html`
 1. `tr` → `index-tr.html`
-
-## To-do
-
-* Tests
