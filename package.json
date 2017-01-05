@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "gulp": "3.x",
-    "mocha": "3.x"
+    "mocha": "3.x",
+    "vinyl": "0.x"
   }
 }
