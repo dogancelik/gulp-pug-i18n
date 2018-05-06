@@ -1,6 +1,6 @@
 {
   "name": "gulp-pug-i18n",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Gulp plugin for Pug with i18n support",
   "main": "lib/index.js",
   "directories": {
@@ -10,8 +10,8 @@
     "test": "mocha test/"
   },
   "repository": "bitbucket:dogancelik/gulp-pug-i18n",
-  "bugs": "https://bitbucket.org/dogancelik/gulp-pug-i18n/issues",
-  "homepage": "https://bitbucket.org/dogancelik/gulp-pug-i18n",
+  "bugs": "https://github.com/dogancelik/gulp-pug-i18n/issues",
+  "homepage": "https://github.com/dogancelik/gulp-pug-i18n",
   "keywords": [
     "gulpplugin",
     "gulp",
@@ -23,16 +23,20 @@
   "license": "MIT",
   "dependencies": {
     "debug": "^2.2.0",
-    "gulp-util": "^3.0.7",
     "js-yaml": "^3.6.1",
     "map-stream": "0.0.6",
+    "plugin-error": "^1.0.1",
     "pug": "^2.0.0-beta3",
     "through2": "^2.0.1",
+    "vinyl": "^0.5.3",
     "vinyl-fs": "^2.4.3"
   },
   "devDependencies": {
     "gulp": "3.x",
-    "mocha": "3.x",
-    "vinyl": "0.x"
+    "mocha": "3.x"
+  },
+  "eslintConfig": {
+    "parserOptions": { "ecmaVersion": 6 },
+    "env": { "node": true }
   }
 }

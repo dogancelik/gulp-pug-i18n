@@ -2,8 +2,6 @@
 
 *i18n* library for [Pug](https://github.com/pugjs/pug) (previously Jade). This plugin extends *gulp-pug* with i18n functionality.
 
-**Note: 0.x is alpha. Bugs may exist, use with care.**
-
 ## How to use?
 
 ```js
