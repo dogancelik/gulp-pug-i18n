@@ -17,7 +17,7 @@ gulp.task('default', function () {
   gulp.src('input/*.pug')
     .pipe(pug({
       i18n: {
-        locales: 'locale/*' // locales: en.yml, de.json,
+        locales: 'locale/*', // locales: en.yml, de.json
         filename: '{{basename}}.{{lang}}.html'
       },
       pretty: true // Pug option
