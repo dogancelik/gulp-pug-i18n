@@ -9,7 +9,7 @@ var locPath = 'test/fixtures/locales/*.{yml,json}';
 var destPath = 'temp';
 
 gulp.task('default', function () {
-  gulp
+  return gulp
     .src(srcPath)
     .pipe(pug({ i18n: {
       locales: locPath,
